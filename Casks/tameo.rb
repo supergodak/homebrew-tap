@@ -1,6 +1,6 @@
 cask "tameo" do
-  version "0.1.4"
-  sha256 "d0b831712f069000381696579f89a8a3475f49710cc22346fa937687c13c125a"
+  version "0.1.5"
+  sha256 "fc4d3c103a43f81b1282395cbbef800337dc9df789d0f7e82e9adf5bafdd45dc"
 
   url "https://github.com/supergodak/tameo/releases/download/v#{version}/Tameo.dmg",
       verified: "github.com/supergodak/tameo/"
