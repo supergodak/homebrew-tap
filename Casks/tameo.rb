@@ -9,7 +9,7 @@ cask "tameo" do
   homepage "https://tameo.ati-mirai.co.jp/"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tameo.app"
 
