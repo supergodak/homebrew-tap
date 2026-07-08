@@ -1,6 +1,6 @@
 cask "tameo" do
-  version "0.1.7"
-  sha256 "bf9350a115f82a56b4c6e9a8f32c05dbd959fdba4ed52fa6a381254a603b17ef"
+  version "0.1.8"
+  sha256 "efacb5cab67eed094eb6749849df9f0bbe8864aeeceea873ea952166e9a659c6"
 
   url "https://github.com/supergodak/tameo/releases/download/v#{version}/Tameo.dmg",
       verified: "github.com/supergodak/tameo/"
@@ -14,6 +14,7 @@ cask "tameo" do
   app "Tameo.app"
 
   zap trash: [
+    "~/Library/Application Support/Tameo",
     "~/Library/Caches/jp.co.ati-mirai.tameo",
     "~/Library/HTTPStorages/jp.co.ati-mirai.tameo",
     "~/Library/Preferences/jp.co.ati-mirai.tameo.plist",
