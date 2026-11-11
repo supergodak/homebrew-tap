@@ -1,6 +1,6 @@
 cask "fuseo" do
-  version "0.2.4"
-  sha256 "1d9c630b86e74eda7ed732d7629767edc9244acc8ecc2253874c76584f382469"
+  version "0.3.0"
+  sha256 "001a112d0317db7799380866cc5400c3f4fe8daf372a6ac0d6e43ef9d5fd78a4"
 
   url "https://github.com/supergodak/fuseo/releases/download/v#{version}/Fuseo-#{version}.dmg"
   name "Fuseo"
